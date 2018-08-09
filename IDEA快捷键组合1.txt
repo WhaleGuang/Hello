@@ -1,0 +1,36 @@
+快捷键  			功能           			说明
+
+
+Ctrl+Y 			删除一行　 			eclipse的Ctrl+D
+Ctrl+W 			选中代码，连续按会有其他效果 	 
+Ctrl+Z 			撤销操作 	 
+Ctrl+Shift+Z 		恢复Ctrl+Z撤销的操作 	 
+Alt+Enter 	 		引入类或提供给你选择的处理方法 	 
+Alt/Ctrl+Shift+上下 		代码向上/下移动一行 	eclipse的Alt+上下
+Alt+/ 			复制上一个单词 	 
+Alt+Shift+Enter 		自动补全分号 	 
+Alt+Shift+V 		粘贴板历史
+Ctrl+F 			在本文件查找，可通过方向键移动选择         	按Esc消失
+Ctrl+Shift+F                        	在制定路径/模块/工程内查找 		非常常用的一个功能，很多时候你想查找一个内容但是不一定知道它在哪里，这个就很实用
+Ctrl+R			在本文件内查找/替换 	按Esc消失
+Ctrl+N 			在本工程类查询某个类 	 
+Ctrl+Shift+N 		查询某个类(不限本工程) 		看源码很实用，比如我想看看jdk里面TreeMap这个类的代码，就可以用这个功能
+Ctrl+H 			查看一个类的继承关系 	 
+Ctrl+B 			查看一个类或者变量的申明 	 
+Alt+F7 			查找一个属性或方法被谁调用                        	 
+Alt+上下 			跳到上/下一个方法(或属性) 	 
+Ctrl+上下 			上下滑屏但是不移动光标 	 
+Alt+左右 			同时打开多个文件时切换代码视图                              	 
+Ctrl+Alt+ 左右                          返回至上次浏览的位置 		非常实用，在多个文件代码中遨游的时候能够快速回到想去的位置
+Ctrl+上下 			光标跳转到第一行或最后一行 	 
+ALT+SHIFT+C 		最近修改的代码
+Ctrl+Q 			显示注释文档 	 
+Ctrl+P 			查看函数参数 	 
+Ctrl+J 			代码模板
+Alt+Delete 		安全删除字段或方法 	 
+Ctrl+Alt+N 		去除一些多余的赋值过程或者函数 	 下面会单独演示
+Shift+F6 			重命名类或者变量
+Alt+F12 			打开命令行终端 	 
+Alt+1 			打开工程结构 	 
+Alt+7 			打开类结构 	 
+Alt+9 			打开change

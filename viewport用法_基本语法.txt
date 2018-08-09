@@ -1,0 +1,11 @@
+viewport 的基本原理：
+	它的作用就是创建一个虚拟的窗口（viewport），而且这个虚拟窗口的分辨率接近于桌面显示器
+
+	为了让手机也能获得良好的网页浏览体验，Apple找到了一个办法：在移动版（iOS）的Safari中定义了viewport meta标签①，它的作用就是创建一个虚拟的窗口（viewport），	而且这个虚拟窗口的分辨率接近于桌面显示器，Apple将其定位为980px②。以一代iphone下的Safari来说就是： 
+	在iphone的320px物理屏幕上——视觉窗口（visual viewport），创建出了一个980px的虚拟窗口——布局窗口（layout viewport），在视觉窗口（visual viewport）中我们可	以拖动横向竖向滑动条或者放大缩小网页，来达到最佳的浏览效果（类似桌面浏览器）；而布局窗口（layout viewport）用来配合CSS渲染布局，例如当我们设置一个容器的宽度	为100%时，这个容器的实际值为980px而不是320px。如此一来大部分 网页就能以缩放的形式正常的显示在手机屏幕上了。
+
+
+
+使用方法： <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />  
+viewport的主要作用：
+		是布局宽度等于视口的宽度，从而便于在移动端开放，增加了网页的可读性

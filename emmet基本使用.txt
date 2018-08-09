@@ -1,0 +1,48 @@
+后代：	nav>ul>li
+兄弟：	div+p+bq
+上级：	div+div>p>span+em^bq
+	div+div>p>span+em^^bq
+分组：	div>(header>ul>li*2>a)+footer>p
+	(div>dl>(dt+dd)*3)+footer>p
+
+乘法：	ul>li*5
+自增：	ul>li.item$*5
+	h$[title=item$]{Header $}*3
+	ul>li.item$$$*5
+	ul>li.item$@-*5
+ID和类属性：#header
+	.title
+	form#search.wide
+	p.class1.class2.class3
+
+自定义属性：p[title="Hello world"]
+	td[rowspan=2 colspan=3 title]
+
+文本：a{Click me}
+	p>{Click }+a{here}+{ to continue}
+
+隐士标签：class
+	em>.class
+
+
+缩写：	object
+		<object data="" type=""></object>
+
+	
+	iframe
+		<iframe src="" frameborder="0"></iframe>
+	html:xml
+		<html xmlns="http://www.w3.org/1999/xhtml"></html>
+	menu:toolbar
+		<menu type="toolbar"></menu>
+	menu:context
+		<menu type="context"></menu>
+	input:button[type=reset]/input:reset
+		<input type="reset" value="" />
+	input:image
+		<input type="image" src="" alt="" />
+
+
+
+
+摘取链接：https://www.w3cplus.com/tools/emmet-cheat-sheet.html
