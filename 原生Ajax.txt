@@ -1,0 +1,7 @@
+Ajax：
+	是对Asynchronous JavaScript + XML的简写，这一技术能够向服务器请求额外的数据而无需卸载页面，会带来很好的用户体验。Ajax技术的核心是XMLHttpRequest(简称XHR)对象，XHR为向服务器发送请求和解析服务器响应提供了流畅的接口，能够以异步方式从服务器府区区获取更多信息而不必刷新页面。使用XML对象取得新数据然后在通过DOM将新数据插入到页面中。
+
+
+
+ajax的流程：获去MXLHTTPRequest对象→使用XMLHTTPRequest对象发送请求→get/post请求→服务器→文本/HTML格式/XML格式/JSON格式→响应
+									         使用XMLHTTPRequest对象接收响应→响应

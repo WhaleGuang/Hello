@@ -1,0 +1,39 @@
+Servlet的作用：
+
+1.接收请求数据
+
+2.处理请求
+
+3.完成响应
+
+Servlet接口中的五大方法：
+
+其中有三个是生命周期方法：
+
+1.void init(ServletConfig).当Servlet对象被服务器创建时调用，仅调用一次。
+
+2.void service(ServletRequest, ServletResponse).可被服务器调用多次。
+
+3.void destroy().服务器关闭连接之前调用，仅一次。
+
+另外的两个：
+
+4.ServletConfig getServletConfig()
+
+5.String getServletInfo()
+
+
+
+
+
+
+浏览器访问servlet时，需要将servlet与路径绑定，需要在web.xml中对servlet进行配置：
+
+<servlet>
+	<servlet-name>xxx</servlet-name>
+	<servlet-class>web.servlet.Aservelet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>xxx</servlet-name>
+	<url-pattern>/Aservlet</url-pattern>
+</servlet-mapping>
